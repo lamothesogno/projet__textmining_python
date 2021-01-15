@@ -1,0 +1,8 @@
+urllib
+xmltodict
+praw
+datetime 
+sklearn
+pandas
+matplotlib
+tkinter
