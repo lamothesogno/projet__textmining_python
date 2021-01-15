@@ -21,7 +21,11 @@ except ImportError:
     py3 = True
 
 import os
-os.chdir("C:/Users/lamot/OneDrive/Bureau/M1 Info/Projet_Python")
+from pathlib import Path
+os.chdir("") #Désolé nous n'avons pas réussi à obtenir le parent path avec les slashs bien orientés
+
+#Peut-être essayer ça !
+#os.chdir(Path(__file__).parent)
 
 import urllib   
 import xmltodict 
